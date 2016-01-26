@@ -1,17 +1,17 @@
-# Hanami::Bootstrap
-[Bootstrap](http://getbootstrap.com/) wrapper for [hanami](http://hanamirb.org/) framework.
+# Lotus::Bootstrap
+[Bootstrap](http://getbootstrap.com/) wrapper for [lotus](http://lotusrb.org/) framework.
 This wrapper provide HEAD version of bootstrap.
 
-Also you can use [bootstrap-rubygem](https://github.com/twbs/bootstrap-rubygem) gem which support hanami framework.
+Also you can use [bootstrap-rubygem](https://github.com/twbs/bootstrap-rubygem) gem which support lotus framework.
 
 ## Installation
 **Important:** this wrapper required jquery library.
-You can use [jquery-hanami](https://github.com/Nerian/jquery-hanami) gem or add jquery.js to you assets directory.
+You can use [jquery-lotus](https://github.com/Nerian/jquery-lotus) gem or add jquery.js to you assets directory.
 
 Add this line to your application's Gemfile:
 
 ``` ruby
-gem 'hanami-bootstrap'
+gem 'lotus-bootstrap'
 ```
 
 And then execute:
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hanami-bootstrap
+    $ gem install lotus-bootstrap
 
 ## Usage
 Add bootstrap to your template:
@@ -31,7 +31,7 @@ Add bootstrap to your template:
 ```
 
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hanami-bootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/lotus-bootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

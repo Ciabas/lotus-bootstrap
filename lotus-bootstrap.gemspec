@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hanami/bootstrap/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "hanami-bootstrap"
-  spec.version       = Hanami::Bootstrap::VERSION
+  spec.name          = "lotus-bootstrap"
+  spec.version       = Lotus::Bootstrap::VERSION
   spec.authors       = ["Anton Davydov"]
   spec.email         = ["antondavydov.o@gmail.com"]
 
   spec.summary       = %q{Twitter bootstrap library for hanami applications}
   spec.description   = %q{Twitter bootstrap library for hanami applications}
-  spec.homepage      = "https://github.com/davydovanton/hanami-bootstrap"
+  spec.homepage      = "https://github.com/davydovanton/lotus-bootstrap"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
